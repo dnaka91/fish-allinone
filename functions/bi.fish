@@ -1,3 +1,3 @@
-function bc --description 'alias for brew info'
+function bi --description 'alias for brew info'
     brew info $argv
 end
