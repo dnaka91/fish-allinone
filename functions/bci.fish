@@ -1,3 +1,3 @@
-function bci --description 'alias for brew cask info'
-    brew cask info $argv
+function bci --description 'alias for brew info --cask'
+    brew info --cask $argv
 end
