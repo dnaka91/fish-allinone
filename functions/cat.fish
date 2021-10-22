@@ -1,5 +1,5 @@
 function cat --description 'use bat instead of cat'
-    if test -x (which bat)
+    if command -s bat > /dev/null
         bat $argv
     else
         /bin/cat $argv

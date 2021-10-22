@@ -1,5 +1,5 @@
 function nano --description 'use micro instead of nano'
-    if test -x (which micro)
+    if command -s micro > /dev/null
         micro $argv
     else
         /usr/local/bin/nano $argv

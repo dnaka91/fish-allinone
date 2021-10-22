@@ -1,7 +1,7 @@
 function ll --description 'use exa instead of ls -l'
-    if test -x (which exa)
+    if command -s exa > /dev/null
         exa -l $argv
     else
-        /bin/ll -l $argv
+        /bin/ls -l $argv
     end
 end
