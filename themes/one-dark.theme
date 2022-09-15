@@ -1,0 +1,26 @@
+# name: 'One Dark'
+# preferred_background: 282c34
+
+fish_color_autosuggestion    e6e6e6 --dim
+fish_color_cancel            --reverse
+fish_color_command           c162de
+fish_color_comment           ff616e --dim
+fish_color_cwd               8cc265
+fish_color_cwd_root          e05561
+fish_color_end               ffffff --bold
+fish_color_error             e05561 --bold
+fish_color_escape            a5e075
+fish_color_history_current   --bold
+fish_color_host              abb2bf
+fish_color_host_remote       d18f52
+fish_color_match             --background=4fc4ff
+fish_color_normal            abb2bf
+fish_color_operator          d18f52
+fish_color_param             4aa5f0
+fish_color_quote             8cc265
+fish_color_redirection       00afff
+fish_color_search_match      f0a45d --background=4f5666
+fish_color_selection         e6e6e6 --bold --background=4f5666
+fish_color_status            e05561
+fish_color_user              a5e075
+fish_color_valid_path        --underline
